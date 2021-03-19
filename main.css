@@ -1,0 +1,32 @@
+body {
+    background-color: #a6f174;
+    color: #112213;
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+button {
+    background-color: rgba(43, 9, 231, 0.842);
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+
+
+form {
+    display: flex;
+    background-color: #FAFAFA;
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding: 10px;
+}
+
+form input {
+    flex: 1;
+    outline: none;
+    transition: all .2s;
+}
+
